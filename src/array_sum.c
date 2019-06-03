@@ -15,5 +15,6 @@ int main()
 	for (i = 0; i < N; i++)
         sum += a[i]; 		/* sums the elements of a */
 
+    printf("sum: %d\n", sum);
     return 0;
 }
