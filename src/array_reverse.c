@@ -8,7 +8,7 @@ int main()
 		a[i] = i;             /* initializes a with its index*/
 	
 	for (i = N-1; i >= 0; i--)
-		printf("%d", &a[i]);	/* print each element of a */
+		printf("%d", a[i]);	/* print each element of a */
 
 	printf("\n");
 	return 0;
